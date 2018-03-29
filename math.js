@@ -21,3 +21,16 @@ module.exports.prime = x => {
   primes.push(x);
   return true;
 };
+
+module.exports.primeFactors = x => {
+  let factors = [];
+  for (let i=2; i<=x; i++) {
+    if (x % i == 0) {
+      factors.push(i);
+      while (x % i == 0) {
+        x /= i;
+      }
+    }
+  }
+  return factors;
+};

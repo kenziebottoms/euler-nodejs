@@ -7,7 +7,7 @@ node 01.js    # unless otherwise specified
 
 |    |    |    |    |    |
 | -- | -- | -- | -- | -- |
-| :heavy_check_mark: [1](01.js) | :heavy_check_mark: [2](02.js) | 3  | 4  | 5  |
+| :heavy_check_mark: [1](01.js) | :heavy_check_mark: [2](02.js) | :heavy_check_mark: [3](03.js) | 4  | 5  |
 | 6  | 7  | 8  | 9  | 10 |
 | 11 | 12 | 13 | 14 | 15 |
 | 16 | 17 | 18 | 19 | 20 |
