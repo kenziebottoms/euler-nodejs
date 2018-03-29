@@ -2,4 +2,5 @@
 
 const { primeFactors, prime } = require("./math");
 
-console.log(primeFactors(600851475143));
+let factors = primeFactors(600851475143);
+console.log(Math.max(...factors));
