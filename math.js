@@ -45,3 +45,11 @@ module.exports.palindrome = x => {
   }
   return true;
 };
+
+module.exports.factorial = x => {
+  if (x == 1) {
+    return 1;
+  } else {
+    return x*module.exports.factorial(x-1);
+  }
+};
