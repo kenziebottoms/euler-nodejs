@@ -34,3 +34,14 @@ module.exports.primeFactors = x => {
   }
   return factors;
 };
+
+module.exports.palindrome = x => {
+  let letters = x.toString().split("");
+  let rev = letters.slice().reverse();
+  for (let i=0; i<parseInt(letters.length/2); i++) {
+    if (letters[i] != rev[i]) {
+      return false;
+    }
+  }
+  return true;
+};
