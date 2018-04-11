@@ -1,6 +1,6 @@
 "use strict";
 
-const { primeFactors, prime } = require("./math");
+const { primeFactors } = require("./math");
 
 let factors = primeFactors(600851475143);
 console.log(Math.max(...factors));

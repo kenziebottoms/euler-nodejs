@@ -10,15 +10,12 @@ module.exports.fib = x => {
   }
 };
 
-let primes = [];
 module.exports.prime = x => {
-  if (primes.indexOf(x)) return true;
   for (let i=parseInt(x/2); i>1; i--) {
     if (x % i == 0) {
       return false;
     }
   }
-  primes.push(x);
   return true;
 };
 
