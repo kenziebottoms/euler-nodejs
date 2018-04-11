@@ -53,3 +53,19 @@ module.exports.factorial = x => {
     return x*module.exports.factorial(x-1);
   }
 };
+
+module.exports.sumOfSquares = (min, max) => {
+  let sum = 0;
+  for (let i=min; i<=max; i++) {
+    sum += i * i;
+  }
+  return sum;
+};
+
+module.exports.squareOfSums = (min, max) => {
+  let sum = 0;
+  for (let i=min; i<=max; i++) {
+    sum += i;
+  }
+  return sum * sum;
+};
